@@ -4,3 +4,6 @@ def add(a,b):
 
 def subtrack(a,b):
     return a-b
+
+def multiply(a,b):
+    return a*b
