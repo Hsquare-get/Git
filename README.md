@@ -22,4 +22,6 @@
 | `git reset [file]`                       | staging area에 올라간 파일을 다시 내리기                     |
 | `git commit -m [commit message]`         | 현재 staging area에 올라간 파일들을 커밋으로 스냅샷(snapshot) 남기기 |
 | `git remote add origin [github_address]` | remote repository(원격 저장소) 연결 설정                     |
-| `git push origin main`                   | remote repository(원격 저장소)에 push<br />(origin: 원격 저장소 주소 대명사) |
+| `git push origin main`                   | local repository의 내용을 remote repository에 보내기<br />(origin: 원격 저장소 주소 대명사) |
+| `git pull`                               | remote repository의 내용을 local repository로 가져오기       |
+| `git clone [github_address]`             | GitHub에 있는 프로젝트를 내 컴퓨터로 가져오기                |
